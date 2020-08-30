@@ -82,13 +82,7 @@
    padding-right: 0px;
 
 }
-.number{
 
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  color: white;
-}
 .mail{
   position: absolute;
   top: 8px;
@@ -101,10 +95,7 @@
   width: 25px;
   height: 25px;
 }
-.number img{
-  width: 25px;
-  height: 25px;
-}
+
 .homeline{
   position: absolute;
   color: white;
@@ -147,8 +138,8 @@
   width: 290px;
   height: 290px;
   border-radius: 60%;
-  margin-left: 75px;
-  margin-top: 100px;
+  margin-left: 25px;
+  margin-top: 70px;
   border: 1px ;
  padding: 10px;
  box-shadow: 5px 10px 18px #383838;
@@ -204,7 +195,7 @@ h2 {
 
 @media (max-width: 1000px)  {
   .work{
-    top: 300px;
+    top: 450px;
   }
 }
 
@@ -235,13 +226,13 @@ font-size:1rem;
 
 @media only screen and (max-width: 750px)  {
   .user{
-    margin-left: 140px;
+    margin-left: 100px;
   }
 }
 .container.work{
   text-align: center;
   padding-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 
@@ -259,7 +250,7 @@ p{
 }
 
 .workpic{
-  width: 400px;
+  width:300px ;
   height: 400px;
    transition: 0.5s all ease-in-out;
    margin-bottom:  25px;
@@ -267,9 +258,8 @@ p{
 }
 
 .picwork {
-  background: none;
-           display: inline-block;
            overflow: hidden;
+           margin-bottom: 20px;
        }
 
        .picwork:hover .workpic {
@@ -343,7 +333,7 @@ h5{
   display: block;
   text-align: center;
 }
-a{
+.social-icon a{
   align-items: center;
   margin-left: 50px;
 }
