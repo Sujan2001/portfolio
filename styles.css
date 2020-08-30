@@ -269,7 +269,7 @@ p{
   height: 100%;
   background-color: black;
   position: relative;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .footer h1{
@@ -287,7 +287,7 @@ h5{
 
 @media only screen and (max-width: 1000px)  {
   .footer{
-    margin-top:400px;
+    top: 900px;
   }
   .btn.btn-outline-light.btn-lg{
     margin-left: 100px;
